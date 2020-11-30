@@ -124,5 +124,23 @@ namespace Cuadrilateros.Windows
             lista = repositorio.GetLista();
             MostrarDatosEnGrilla();
         }
+
+        private void tsbOrdenar_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Lado1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            lista = repositorio.GetListaPorLadoDescendente();
+            MostrarDatosEnGrilla();
+        }
+
+        private void PerimetroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            lista = repositorio.GetListaPerimetroAscendente();
+            MostrarDatosEnGrilla();
+        }
+
+
     }
 }

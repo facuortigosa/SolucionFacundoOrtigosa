@@ -33,9 +33,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Lado1TextBox = new System.Windows.Forms.TextBox();
             this.Lado2TextBox = new System.Windows.Forms.TextBox();
-            this.btnOK = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnOK = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,17 +71,9 @@
             this.Lado2TextBox.Size = new System.Drawing.Size(115, 20);
             this.Lado2TextBox.TabIndex = 3;
             // 
-            // btnOK
+            // errorProvider1
             // 
-            this.btnOK.Image = global::Cuadrilateros.Windows.Properties.Resources.checked_80px;
-            this.btnOK.Location = new System.Drawing.Point(59, 340);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(100, 100);
-            this.btnOK.TabIndex = 4;
-            this.btnOK.Text = "OK";
-            this.btnOK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnOK.UseVisualStyleBackColor = true;
-            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            this.errorProvider1.ContainerControl = this;
             // 
             // btnCancel
             // 
@@ -95,21 +87,34 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // errorProvider1
+            // btnOK
             // 
-            this.errorProvider1.ContainerControl = this;
+            this.btnOK.Image = global::Cuadrilateros.Windows.Properties.Resources.checked_80px;
+            this.btnOK.Location = new System.Drawing.Point(59, 340);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(100, 100);
+            this.btnOK.TabIndex = 4;
+            this.btnOK.Text = "OK";
+            this.btnOK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // frmCuadrilateroAE
             // 
+            this.AcceptButton = this.btnOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
+            this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(534, 461);
+            this.ControlBox = false;
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.Lado2TextBox);
             this.Controls.Add(this.Lado1TextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmCuadrilateroAE";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCuadrilateroAE";

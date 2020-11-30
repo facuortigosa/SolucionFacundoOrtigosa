@@ -208,6 +208,7 @@
             this.tsbOrdenar.Size = new System.Drawing.Size(70, 72);
             this.tsbOrdenar.Text = "Ordenar";
             this.tsbOrdenar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbOrdenar.Click += new System.EventHandler(this.tsbOrdenar_Click);
             // 
             // areaToolStripMenuItem
             // 
