@@ -1,0 +1,6 @@
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.BL\bin\Debug\Cuadrilateros.BL.dll
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.BL\bin\Debug\Cuadrilateros.BL.pdb
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.BL\obj\Debug\Cuadrilateros.BL.csprojAssemblyReference.cache
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.BL\obj\Debug\Cuadrilateros.BL.csproj.CoreCompileInputs.cache
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.BL\obj\Debug\Cuadrilateros.BL.dll
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.BL\obj\Debug\Cuadrilateros.BL.pdb

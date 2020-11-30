@@ -1,0 +1,16 @@
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\bin\Debug\Cuadrilateros.Windows.exe.config
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\bin\Debug\Cuadrilateros.Windows.exe
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\bin\Debug\Cuadrilateros.Windows.pdb
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\obj\Debug\Cuadrilateros.Windows.csprojAssemblyReference.cache
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\obj\Debug\Cuadrilateros.Windows.frmMenuPrincipal.resources
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\obj\Debug\Cuadrilateros.Windows.Properties.Resources.resources
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\obj\Debug\Cuadrilateros.Windows.csproj.GenerateResource.cache
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\obj\Debug\Cuadrilateros.Windows.csproj.CoreCompileInputs.cache
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\obj\Debug\Cuadrilateros.Windows.exe
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\obj\Debug\Cuadrilateros.Windows.pdb
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\bin\Debug\Cuadrilateros.BL.dll
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\bin\Debug\Cuadrilateros.DL.dll
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\bin\Debug\Cuadrilateros.BL.pdb
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\bin\Debug\Cuadrilateros.DL.pdb
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\obj\Debug\Cuadrilateros.Windows.frmCuadrilateroAE.resources
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.Windows\obj\Debug\Cuadrilateros.Windows.csproj.CopyComplete

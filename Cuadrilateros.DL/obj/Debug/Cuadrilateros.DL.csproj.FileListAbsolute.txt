@@ -1,0 +1,9 @@
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.DL\bin\Debug\Cuadrilateros.DL.dll
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.DL\bin\Debug\Cuadrilateros.DL.pdb
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.DL\bin\Debug\Cuadrilateros.BL.dll
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.DL\bin\Debug\Cuadrilateros.BL.pdb
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.DL\obj\Debug\Cuadrilateros.DL.csprojAssemblyReference.cache
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.DL\obj\Debug\Cuadrilateros.DL.csproj.CoreCompileInputs.cache
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.DL\obj\Debug\Cuadrilateros.DL.csproj.CopyComplete
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.DL\obj\Debug\Cuadrilateros.DL.dll
+C:\Users\PC - 1\source\repos\SolucionFacundoOrtigosa\Cuadrilateros.DL\obj\Debug\Cuadrilateros.DL.pdb
