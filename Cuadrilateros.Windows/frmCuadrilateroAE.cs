@@ -1,5 +1,6 @@
 ﻿using Cuadrilateros.BL;
 using Cuadrilateros.DL;
+using System;
 using System.Windows.Forms;
 
 namespace Cuadrilateros.Windows
@@ -81,6 +82,9 @@ namespace Cuadrilateros.Windows
             Close();
         }
 
-
+        internal void SetCuadrilatero(Cuadrilatero cuadrilatero1)
+        {
+            cuadrilatero = cuadrilatero1;
+        }
     }
 }

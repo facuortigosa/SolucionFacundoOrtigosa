@@ -21,6 +21,17 @@ namespace Cuadrilateros.BL
             return Lado1 * Lado2;
         }
 
+        public string GetTipo()
+        {
+            if (Lado1 == Lado2)
+            {
+                return "Cuadrado";
+            }
+            else
+            {
+                return "Rectangulo";
+            }
+        }
 
     }
 }

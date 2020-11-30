@@ -1,4 +1,5 @@
 ﻿using Cuadrilateros.BL;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -86,6 +87,17 @@ namespace Cuadrilateros.DL
         {
             return ListaCuadrilateros.OrderByDescending(c => c.Lado1).ToList();
         }
+
+        public void Editar(Cuadrilatero cuadrilatero)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Editar(Cuadrilatero cOriginal, Cuadrilatero cNuevo)
+        {
+            return true;
+        }
+
 
 
     }

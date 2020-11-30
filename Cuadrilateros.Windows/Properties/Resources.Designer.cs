@@ -93,6 +93,16 @@ namespace Cuadrilateros.Windows.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap counter_40px {
+            get {
+                object obj = ResourceManager.GetObject("counter_40px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap editarae {
             get {
                 object obj = ResourceManager.GetObject("editarae", resourceCulture);

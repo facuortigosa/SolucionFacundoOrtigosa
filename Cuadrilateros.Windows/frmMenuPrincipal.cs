@@ -61,6 +61,8 @@ namespace Cuadrilateros.Windows
             r.Cells[cmnLado2.Index].Value = c.Lado2;
             r.Cells[cmnPerimetro.Index].Value = c.GetPerimetro();
             r.Cells[cmnArea.Index].Value = c.GetArea();
+            r.Cells[cmnTipo.Index].Value = c.GetTipo();
+
 
             r.Tag = c;
         }
@@ -106,12 +108,12 @@ namespace Cuadrilateros.Windows
                     "Confirmar Baja",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question);
-                if (dr== DialogResult.Yes)
+                if (dr == DialogResult.Yes)
                 {
                     repositorio.Borrar(cuadrilatero);
                     dgvDatos.Rows.Remove(r);
                 }
-               if (dr == DialogResult.No)
+                if (dr == DialogResult.No)
                 {
                     return;
                 }
@@ -141,6 +143,54 @@ namespace Cuadrilateros.Windows
             MostrarDatosEnGrilla();
         }
 
+        private void tsbOrdenar_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
 
+        }
+
+        private void tsbEditar_Click(object sender, EventArgs e)
+        {
+            if (dgvDatos.SelectedRows.Count > 0)
+            {
+                DataGridViewRow r = dgvDatos.SelectedRows[0];
+                Cuadrilatero cuadrilatero = (Cuadrilatero)r.Tag;
+                frmCuadrilateroAE frm = new frmCuadrilateroAE();
+                frm.Text = "Editar Cuadrilatero";
+                frm.SetCuadrilatero(cuadrilatero);
+                DialogResult dr = MessageBox.Show("¿Desea Editar  ?",
+                "Confirmar Baja",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+                if (dr == DialogResult.Yes)
+                {
+                    repositorio.Editar(cuadrilatero);                    
+                }
+                if (dr == DialogResult.No)
+                {
+                    return;
+                }
+            }
+        }
+
+        private void tsbCantidad_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tsbCantidad_TextChanged(object sender, EventArgs e)
+        {
+            repositorio.GetCantidad();
+    }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            repositorio.GetCantidad();
+        }
+
+        private void tsbCantidad_Click_1(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show($"Cantiad de elementos= {repositorio.GetCantidad().ToString()}");
+
+        }
     }
 }
