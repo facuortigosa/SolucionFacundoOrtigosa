@@ -23,6 +23,7 @@ namespace Cuadrilateros.Windows
         private bool ValidarDatos()
         {
             bool valido = true;
+            errorProvider1.Clear();
             if (string.IsNullOrEmpty(Lado1TextBox.Text.Trim()))
             {
                 valido = false;
@@ -32,6 +33,27 @@ namespace Cuadrilateros.Windows
             {
                 valido = false;
                 errorProvider1.SetError(Lado2TextBox, "Debe ingresar un numero.");
+            }
+
+            if (!int.TryParse(Lado1TextBox.Text, out int c))
+            {
+                valido = false;
+                errorProvider1.SetError(Lado1TextBox, "Debe ingresar un numero.");
+            }
+            else if (c <=0)
+            {
+                valido = false;
+                errorProvider1.SetError(Lado1TextBox, "El numero debe ser positivo.");
+            }
+            if (!int.TryParse(Lado2TextBox.Text, out int co))
+            {
+                valido = false;
+                errorProvider1.SetError(Lado2TextBox, "Debe ingresar un numero.");
+            }
+            else if (co<=0)
+            {
+                valido = false;
+                errorProvider1.SetError(Lado2TextBox, "El numero debe ser positivo.");
             }
 
             return valido;
@@ -49,6 +71,8 @@ namespace Cuadrilateros.Windows
                 cuadrilatero.Lado2 = int.Parse(Lado2TextBox.Text);
                 repositorio.Agregar(cuadrilatero);
                 DialogResult = DialogResult.OK;
+
+
             }
         }
 
